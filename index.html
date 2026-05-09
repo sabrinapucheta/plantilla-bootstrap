@@ -109,7 +109,9 @@
           <div>
             <h5>Bordes y Sombras</h5>
             <div class="d-flex bg-body-secondary p-5 gap-3">
-              <div class="p-4 bg-primary-subtle border border-primary"><p>Sombra Pequeña</p></div>
+              <div class="p-4 bg-primary-subtle border border-primary">
+                <p>Sombra Pequeña</p>
+              </div>
               <div
                 class="p-4 border-top bg-primary-subtle border-end border-bottom border-success"
               >
@@ -124,12 +126,48 @@
             </div>
           </div>
           <!-- columna 2: Opacidad -->
-          <div  >
+          <div>
             <h5>Opacidad</h5>
-            <p class="opacity-100 bg-primary p-2" style="width:300px">Opacidad 100%</p>
-            <p class="opacity-75 bg-primary p-2" style="width:300px">Opacidad 75%</p>
-            <p class="opacity-50 bg-primary p-2" style="width:300px">Opacidad 50%</p>
-            <p class="opacity-25 bg-primary p-2" style="width:300px">Opacidad 25%</p>
+            <p class="opacity-100 bg-primary p-2" style="width: 300px">
+              Opacidad 100%
+            </p>
+            <p class="opacity-75 bg-primary p-2" style="width: 300px">
+              Opacidad 75%
+            </p>
+            <p class="opacity-50 bg-primary p-2" style="width: 300px">
+              Opacidad 50%
+            </p>
+            <p class="opacity-25 bg-primary p-2" style="width: 300px">
+              Opacidad 25%
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- espaciado (margenes y rellenos) -->
+      <section class="container my-4">
+        <div class="m-5 mb-2">
+          <h4>Espaciado (Márgenes y Rellenos)</h4>
+          <p>
+            Clases <code class="text-danger-emphasis">m-*</code> (margin) y
+            <code>p-*</code> (padding). De 0 a 5.
+          </p>
+        </div>
+        <!-- cuadro con padding y margenes -->
+        <div class="border border-secondary m-5 mt-3 p-4">
+          <!-- padding -->
+          <div class="d-flex flex-column flex-md-row gap-4 m-3">
+            <div class="align-self-end bg-primary p-1" style="height: 30px">
+              <p>p-1</p>
+            </div>
+            <div class="bg-primary align-self-end p-3" style="height: 60px">
+              <p>p-3</p>
+            </div>
+            <div class="bg-primary p-5"><p>p-5</p></div>
+          </div>
+          <!--  margnes -->
+          <div class="d-flex border-top border-secondary">
+            <div class="m-3 bg-secondary rounded-2 p-2 "><p class="m-0">Sin Margen Extra</p></div>
+            <div class="m-3 bg-danger rounded-2 p-2 "><p class="m-0">ms-md-5 (Margen condicional)</p></div>
           </div>
         </div>
       </section>
