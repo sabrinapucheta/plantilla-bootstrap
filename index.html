@@ -226,7 +226,7 @@
               <div class="container-fluid">
                 <p class="border border-secondary rounded-2 p-2">
                   Item de lista con Badge
-                  <span class="badge text-bg-secondary">14</span>
+                  <span class="badge text-bg-primary">14</span>
                 </p>
               </div>
               <div class="container-fluid">
@@ -238,6 +238,90 @@
             <div></div>
           </div>
         </div>
+      </section>
+      <!-- Feedback y tablas -->
+      <section class="container my-5">
+        <h3 class="m-5 mb-4">5.Tablas yFeedback</h3>
+        <p class="m-5 mt-0">
+          Las tablas en bootstrap son responsivas si usas la clase
+          .table-responsive, creando un scroll horizontal dentro de la tabla
+        </p>
+        <!-- columna 1 -->
+
+        <div class="d-flex flex-row">
+          <div>
+        <!-- cuadro importante -->
+        <div class= "bg-info-subtle m-5 p-2 text-primary">
+          <p class="fs-4">¡Importante!</p>
+          <p>
+            Dominar <code class="text-danger-emphasis">d-flex</code>,
+            <code class="text-danger-emphasis">justify-content</code> y
+            <code class="text-danger-emphasis">align-items</code> es clave en el
+            desarrollo
+          </p>
+        </div>
+        <!-- barra de progreso -->
+        <div>
+          <p class="m-5">Acontinuacion tenemos una Progress-bar</p>
+          <div
+            class="progress m-5"
+            role="progressbar"
+            aria-label="Success striped example"
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div
+              class="progress-bar progress-bar-striped bg-success"
+              style="width: 25%"
+            ></div>
+          </div></div>
+          </div>
+          <!-- columna 2 -->
+          <div class="table-responsive">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Propiedad</th>
+                  <th scope="col">Clase Bootstrap</th>
+                  <th scope="col">Uso Responsivo</th>
+                  <th scope="col">Descripcion Tecnica</th>
+                  <th scope="col">Estado</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td class="fw-bold">Bordes</td>
+                  <td><code class="text-danger-emphasis">.border-dashed*</code></td>
+                  <td><code class="text-danger-emphasis">border-md-0</code></td>
+                  <td>Bootstrap no tiene dashed nativo;requiere CSS extra o estilos inline</td>
+                   <td><button type="button" class="btn btn-warning">Personalizado</button></td>
+                 
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td class="fw-bold">Grilla</td>
+                  <td><code class="text-danger-emphasis">.border-dashed*</code></td>
+                  <td><code class="text-danger-emphasis">border-md-0</code></td>
+                  <td>Sistema de 12 columnas.Ideal para anchos proporcionales(ej:8 y 4)</td>
+                   <td><button type="button" class="btn btn-success">Nativo</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td class="fw-bold">Visibilidad</td>
+                  <td><code class="text-danger-emphasis">.d-none</code></td>
+                  <td><code class="text-danger-emphasis">.d-lg-block</code></td>
+                  <td>Oculta o muestra elementos según el breakpoint (xs,sm,md,lg,xl).</td>
+                  <td><button type="button" class="btn btn-success">Nativo</button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          </div>
+        
+        
       </section>
     </main>
     <footer class="bg-secondary text-center text-white p-3">
